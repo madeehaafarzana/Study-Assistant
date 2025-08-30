@@ -117,7 +117,7 @@ function App(): React.ReactNode {
               isLoading={isLoading}
             />
           </aside>
-          <section className="flex-1 min-w-0">
+          <section className="flex-1 min-w-0 h-[calc(100vh-6rem)] overflow-y-auto pr-2">
             <ContentDisplay
               isLoading={isLoading}
               error={error}
